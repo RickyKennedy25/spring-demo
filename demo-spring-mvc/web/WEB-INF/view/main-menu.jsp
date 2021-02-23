@@ -2,15 +2,15 @@
   Created by IntelliJ IDEA.
   User: ricky.kennedy
   Date: 2/22/2021
-  Time: 12:08 PM
+  Time: 9:27 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Spring mvc demo - Home Page</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <title>Menu JSP</title>
+  </head>
+  <body>
+  Main Update
+  </body>
 </html>

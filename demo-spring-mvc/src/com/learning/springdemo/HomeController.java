@@ -1,4 +1,4 @@
-package com.learning.springdemo.mvc;
+package com.learning.springdemo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
 	@RequestMapping("/")
-	public String showMyPage(){
+	public String showMyPage() {
+		return "index";
+	}
+
+	@RequestMapping("/home")
+	public String showMyHomepage() {
 		return "main-menu";
 	}
+
 }
