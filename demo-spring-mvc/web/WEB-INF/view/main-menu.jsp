@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Menu JSP</title>
+    <title>Menu</title>
   </head>
   <body>
-  Main Update
+    <h2>Spring MVC DEMO - Home Page</h2>
+    <hr>
+    <a href="hello/showForm">Hello World Form</a>
+    <br>
+    <a href="student/showForm">Student Form</a>
   </body>
 </html>
